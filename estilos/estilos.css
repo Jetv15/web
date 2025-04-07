@@ -1,0 +1,26 @@
+    /* Estilo del contenedor donde se moverán los botones */
+    #marco {
+        position: relative;
+        width: 700px;
+        height: 700px;
+        border: 5px solid #ff0000;
+        margin: 20px auto;
+        overflow: hidden; /* Oculta botones que salgan del marco */
+      }
+  
+      /* Estilo base de los botones del juego */
+      .boton-juego {
+       position: absolute;
+       background: linear-gradient(red,blue);
+      }
+      body {
+        background-image: url("https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1920");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        color:white ;
+      }
+    #iniciarBtn{
+      
+    }
